@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.app.json",
+    "compilerOptions": {
+      "composite": true,
+      "jsx": "react-jsx",
+      "lib": ["ES2023", "DOM"],
+      "types": ["vitest/globals", "vite/client", "node"],
+      "moduleResolution": "bundler"
+    },
+    "include": [
+      "src/**/*",                 // <-- include EVERYTHING under src
+      "src/test/setup.ts"
+    ]
+  }

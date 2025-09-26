@@ -1,0 +1,10 @@
+@import 'antd/dist/reset.css';
+@import './layout.css';
+@import './form.css';
+@import './button.css';
+@import './input.css';
+
+:root { --content-max: 520px; }
+html, body, #root { height: 100%; }
+body { margin: 0; }
+main { padding: 24px; }

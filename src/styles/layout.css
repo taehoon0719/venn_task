@@ -1,0 +1,8 @@
+.ant-layout {
+    min-height: 100dvh;
+    background-color: #f2f2f2;
+}
+
+.ant-layout-content {
+    min-height: inherit;
+}

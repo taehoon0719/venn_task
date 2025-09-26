@@ -1,0 +1,21 @@
+.ant-btn {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+:where(.ant-btn-primary) {
+    background-color: #000 !important;
+    border-color: #000 !important;
+  }
+
+:where(.ant-btn-primary):hover,
+:where(.ant-btn-primary):focus {
+  background-color: #666666 !important;
+  border-color: #666666 !important;
+}
+
+:where(.ant-btn-primary):active {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}

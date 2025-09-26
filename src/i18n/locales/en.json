@@ -1,0 +1,36 @@
+{
+    "title": "Onboarding Form",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone Number",
+    "corpNumber": "Corporation Number",
+    "placeholder": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "+1 123 456 7890",
+      "corp": "123456789"
+    },
+    "actions": { 
+        "submit": "Submit"
+      },
+    "errorBoundary": {
+      "title": "Something Went Wrong",
+      "goHome": "Go Home"
+    },
+    "messages": {
+      "error": "Error",
+      "success": "Success",
+      "submitted": "Submitted successfully!",
+      "submissionFailed": "Submission failed",
+      "invalidPhone": "Phone must be +1 followed by 10 digits",
+      "corpRequired": "Corporation number is required",
+      "corpDigits": "Corporation number must be 9 digits",
+      "firstRequired": "First name is required",
+      "lastRequired": "Last name is required",
+      "onlyLetters": "Invalid name",
+      "max50": "Max 50 characters",
+      "corpInvalid": "Invalid Corporation Number",
+      "corpValidateError": "Could not validate corporation number"
+    }
+  }
+  
