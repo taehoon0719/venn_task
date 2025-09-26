@@ -1,3 +1,14 @@
+## Requirements
+- Node 20+
+- npm
+
+Please create .env file based on .env.test and update the base url.
+
+## Steps
+- To run the server: ```npm run dev```
+- To run the test: ```npm run test```
+- To run the link: ```npm run lint```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
